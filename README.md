@@ -36,6 +36,8 @@ To install JupyterLab as part of the Anaconda Python distribution, follow these 
 
 ### Agenda
 
+| | |
+|-|-|
 | Sunday, May 16 | First lecture series released |
 | Saturday, May 22 | Live session, 9:00-13:00 |
 | Sunday, May 23 | Second lecture series released |
