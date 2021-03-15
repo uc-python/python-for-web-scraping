@@ -16,6 +16,11 @@ TBD
 Students should be familiar with the core concepts of Python: assignments, if-statements, for-loops, using functions, and ideally writing functions as well.
 Experience with Jupyter notebooks (or JupyterLab) and Pandas DataFrames will make the course easier but is not required.
 
+Attendees who need a refresher might consider two excellent Python books by Jake VanderPlas:
+- *A Whirlwind Tour of Python* – This book is an overview of the very basics of Python, and is meant as an introduction to the following, longer text. It's available for free online [here](https://jakevdp.github.io/WhirlwindTourOfPython/).
+- *The Python Data Science Handbook* – An absolutely incredible resource, managing to cover enormous breadth and reasonable depth of the core Python libraries for data science, without being dry. Available free online [here](https://jakevdp.github.io/PythonDataScienceHandbook/).
+
+
 ### Format
 
 The course content will be delivered via pre-recorded lectures, which I will release weekly in chunks of approximately 5 hours for 3 weeks.
@@ -34,6 +39,12 @@ To install JupyterLab as part of the Anaconda Python distribution, follow these 
 4. Open the installer when the download completes, and then follow the prompts. If you are prompted about installing PyCharm, elect not to do so.
 5. Once installed, open the Anaconda Navigator and launch JupyterLab to ensure it works.
 
+Additionally, you may want to download the course materials from this repository.
+There are two ways to do so:
+
+1. Clone the repo - If you're familiar with this, you can clone this repository.
+2. Download the files as a zip - use [this link](https://github.com/uc-python/python-for-web-scraping/archive/master.zip).
+
 ### Agenda
 
 | | |
@@ -44,3 +55,9 @@ To install JupyterLab as part of the Anaconda Python distribution, follow these 
 | Saturday, May 29 | Live session, 9:00-13:00 |
 | Sunday, May 30 | Third lecture series released |
 | Saturday, June 5 | Live session, 9:00-13:00 |
+
+### Your Instructor
+
+If you have any specific questions prior to or during the class, you may reach out to me directly via GitHub or email:
+
+  * Ethan Swan: [GitHub](https://www.github.com/eswan18) & [Email](mailto:ethanpswan@gmail.com)
