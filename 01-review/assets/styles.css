@@ -51,3 +51,14 @@ div.slide-footer img {
 	left: 0px;
 	position: fixed;
 }
+
+/* Custom to this project */
+.footnote {
+    font-size: 80%;
+}
+
+.padded-table table {
+    border-spacing: 3em 0.5em;
+    border-collapse: separate;
+}
+

@@ -31,6 +31,27 @@ class: center, middle
 
 ---
 
+# DataFrames -- Basics
+
+In most situations, DataFrames just render as text:
+
+```
+  tailnum    year                     type      manufacturer      model engines  seats  speed     engine
+0  N10156  2004.0  Fixed wing multi engine           EMBRAER  EMB-145XR       2     55    NaN  Turbo-fan
+1  N102UW  1998.0  Fixed wing multi engine  AIRBUS INDUSTRIE   A320-214       2    182    NaN  Turbo-fan
+2  N103US  1999.0  Fixed wing multi engine  AIRBUS INDUSTRIE   A320-214       2    182    NaN  Turbo-fan
+3  N104UW  1999.0  Fixed wing multi engine  AIRBUS INDUSTRIE   A320-214       2    182    NaN  Turbo-fan
+4  N10575  2002.0  Fixed wing multi engine           EMBRAER  EMB-145LR       2     55    NaN  Turbo-fan
+```
+
+--
+
+But in JupyterLab, DataFrames have a stylized representation:
+
+<img src="assets/basic_dataframe.png" style="width:100%;"/>
+
+---
+
 # DataFrames -- Importing Data
 
 - Easy to read in data from common formats (CSV, JSON, SQL databases)
