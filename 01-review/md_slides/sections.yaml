@@ -1,4 +1,6 @@
 sections:
   - file: template.md
   - file: intro.md
+  - file: tools.md
+  - file: pandas.md
   - file: exercises.md
