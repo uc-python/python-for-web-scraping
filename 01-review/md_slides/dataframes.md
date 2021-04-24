@@ -27,6 +27,8 @@ class: center, middle
 
 <img src="assets/basic_dataframe.png" style="width:100%;"/>
 
+- We'll use this DataFrame of planes for many of our examples in this section.
+
 ---
 
 # DataFrames -- Importing Data
@@ -63,7 +65,7 @@ df = pd.read_sql('my_table', db_connection)
 <br><br><br><br>
 
 ```python
-df.head()
+planes_df.head()
 ```
 
 <img src="assets/basic_dataframe.png" style="width:100%;"/>
@@ -75,7 +77,7 @@ df.head()
 Other options...
 
 ```python
-df.shape # Return (n_rows, n_columns)
+planes_df.shape # Return (n_rows, n_columns)
 ```
 
 ```
@@ -83,7 +85,7 @@ df.shape # Return (n_rows, n_columns)
 ```
 
 ```python
-df.columns # Return column names
+planes_df.columns # Return column names
 ```
 
 ```
@@ -99,7 +101,7 @@ Index(['tailnum', 'year', 'type', 'manufacturer', 'model', 'engines', 'seats',
 `df.info()` gives a comprehensive overview, ideal when working interactively.
 
 ```python
-df.info()
+planes_df.info()
 ```
 
 ```

@@ -3,4 +3,5 @@ sections:
   - file: intro.md
   - file: tools.md
   - file: dataframes.md
+  - file: subsetting.md
   - file: exercises.md
