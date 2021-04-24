@@ -1,6 +1,6 @@
 class: center, middle
 
-## #3
+## #4
 # Selecting, Indexing, and Filtering
 
 ---

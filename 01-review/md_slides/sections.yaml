@@ -2,6 +2,7 @@ sections:
   - file: template.md
   - file: intro.md
   - file: tools.md
+  - file: python.md
   - file: dataframes.md
   - file: subsetting.md
   - file: exercises.md

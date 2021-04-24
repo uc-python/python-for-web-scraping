@@ -1,6 +1,6 @@
 class: center, middle
 
-## #2
+## #3
 # Pandas DataFrames
 
 ---
