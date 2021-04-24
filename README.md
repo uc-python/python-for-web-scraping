@@ -33,7 +33,7 @@ During this time, I will briefly review the week's lectures; students are encour
 
 ### Preparation
 
-Students will need to have Python installed on their computer along with an editor, ideally JupyterLab though attendees who are more comfortable with another tool are welcome to use it.
+Students will need to have Python installed on their computer along with an editor, ideally JupyterLab, though attendees who are more comfortable with another tool are welcome to use it.
 To install JupyterLab as part of the Anaconda Python distribution, follow these steps:
 
 1. Visit the [Anaconda download page](https://www.anaconda.com/products/individual).
@@ -53,11 +53,11 @@ There are two ways to do so:
 | | |
 |-|-|
 | Sunday, May 16 | First lecture series released |
-| Saturday, May 22 | Live session, 9:00-13:00 |
+| Saturday, May 22 | Live session, 11:00-15:00 eastern |
 | Sunday, May 23 | Second lecture series released |
-| Saturday, May 29 | Live session, 9:00-13:00 |
+| Saturday, May 29 | Live session, 11:00-15:00 eastern |
 | Sunday, May 30 | Third lecture series released |
-| Saturday, June 5 | Live session, 9:00-13:00 |
+| Saturday, June 5 | Live session, 11:00-15:00 eastern |
 
 ### Your Instructor
 
