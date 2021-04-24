@@ -1,10 +1,6 @@
-# Module Template
+# Module 1: Review of Basic Python for Data Science
 
-This repo serves as the basis for new education slideshow modules that I build.
-
-Right now, I'm using a [fork](https://github.com/eswan18/remarker2) of [`remarker`](https://github.com/tylerdave/remarker), in which I've added the ability to stitch multiple "sections" together into a single slideshow.
-
-On a Unix-y system, build your presentation with:
+After installing [remarker2](https://github.com/eswan18/remarker2/tree/develop), on a Unix-y system, you can build the presentation with:
 ```bash
 make slides
 ```
