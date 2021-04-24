@@ -2,5 +2,5 @@ sections:
   - file: template.md
   - file: intro.md
   - file: tools.md
-  - file: pandas.md
+  - file: dataframes.md
   - file: exercises.md

@@ -1,7 +1,7 @@
 class: center, middle
 
 ## #2
-# Pandas Series and DataFrames
+# Pandas DataFrames
 
 ---
 
@@ -120,3 +120,30 @@ Data columns (total 9 columns):
 dtypes: float64(2), int64(2), object(5)
 memory usage: 233.7+ KB
 ```
+
+---
+
+# DataFrames -- Exporting Data
+
+- Pandas can save data in most of the formats it supports importing from.
+
+- Instead of `pd.read_FILETYPE`, it's usually `df.to_FILETYPE`
+
+```python
+df.to_csv('data/my_data.csv')
+
+
+df.to_json('data/my_data.json')
+
+
+# Again, you need an existing database connection to work with SQL.
+df.to_sql('my_table', db_connection)
+```
+
+
+- We'll probably mostly save data in CSVs in this course, for simplicity.
+
+---
+class: center, middle
+
+## Questions

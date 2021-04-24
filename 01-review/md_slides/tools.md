@@ -63,3 +63,8 @@ class: center, middle
   - They can render complex outputs (like charts), and show results immediately after the code that produced them.
 
 - Because of their ability to show visuals, notebooks are ideal for data exploration. They also tend to produce more readable, shareable code -- especially in the case of analysis code.
+
+---
+class: center, middle
+
+## Questions
