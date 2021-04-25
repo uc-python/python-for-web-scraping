@@ -52,7 +52,7 @@ class: center, middle
 my_list = ['a', 'b', 3, 84.51, False]
 
 # Elements can be accessed by index (which counts from 0!):
-mylist[1]
+my_list[1]
 ```
 ```
 "b"
