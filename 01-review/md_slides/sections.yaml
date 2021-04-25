@@ -5,4 +5,5 @@ sections:
   - file: python.md
   - file: dataframes.md
   - file: subsetting.md
+  - file: summarizing.md
   - file: exercises.md
