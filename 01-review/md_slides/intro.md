@@ -8,11 +8,13 @@ class: center, middle
 
 1. The Tools -- Python and Jupyter
 
-2. Pandas DataFrames
+2. Basic Python
 
-3. Selecting, Indexing, and Filtering
+3. Pandas DataFrames
 
-4. Basic Data Wrangling
+4. Selecting, Indexing, and Filtering
+
+5. Summarizing Data
 
 ---
 
