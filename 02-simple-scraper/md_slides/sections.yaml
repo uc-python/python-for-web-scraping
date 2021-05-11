@@ -1,4 +1,5 @@
 sections:
   - file: template.md
   - file: intro.md
+  - file: env-setup.md
   - file: exercises.md
