@@ -10,3 +10,4 @@ dependencies:
   - beautifulsoup4=4.9
   - scrapy=2.4
   - ipython=7.22
+  - jupyterlab>=3.0
