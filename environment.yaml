@@ -1,0 +1,12 @@
+name: uc-python-scraping
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pandas=1.2
+  - requests=2.25
+  - lxml=4.6
+  - feedparser=5.2
+  - beautifulsoup4=4.9
+  - scrapy=2.4
+  - ipython=7.22
