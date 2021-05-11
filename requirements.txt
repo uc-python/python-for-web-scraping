@@ -1,0 +1,9 @@
+pandas==1.2.*
+requests==2.25.*
+lxml==4.6.*
+feedparser==5.2.*
+beautifulsoup4==4.9.*
+scrapy==2.4.*
+ipython==7.22.*
+jupyter-server>=1.6.0,!=1.7.0
+jupyterlab>=3.0.0
