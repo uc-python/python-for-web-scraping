@@ -10,5 +10,5 @@ dependencies:
   - beautifulsoup4=4.9
   - scrapy=2.4
   - ipython=7.22
-  - jupyter_server>=1.6,!=1.7.0
+  - jupyter_server>=1.4,!=1.7.0
   - jupyterlab>=3.0
