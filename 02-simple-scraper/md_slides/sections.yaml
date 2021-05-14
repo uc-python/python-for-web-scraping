@@ -2,4 +2,5 @@ sections:
   - file: template.md
   - file: intro.md
   - file: env-setup.md
+  - file: example-scrape.md
   - file: exercises.md
