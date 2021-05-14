@@ -86,7 +86,7 @@ class: center, middle
   PATTERN = 'Common shares'
 
   html = requests.get(URL).content
-* result = pd.read_html(html, match=pattern)
+* result = pd.read_html(html, match=PATTERN)
 ```
 
 ---
@@ -139,9 +139,9 @@ len(result)
   PATTERN = 'Common shares'
 
   html = requests.get(URL).content
-  result = pd.read_html(html, match=pattern)
+  result = pd.read_html(html, match=PATTERN)
 
-*  df = result[0]
+* df = result[0]
 ```
 
 ---
