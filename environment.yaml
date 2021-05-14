@@ -6,6 +6,7 @@ dependencies:
   - pandas=1.2
   - requests=2.25
   - lxml=4.6
+  - html5lib=1.1
   - feedparser=5.2
   - beautifulsoup4=4.9
   - scrapy=2.4
