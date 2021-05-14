@@ -79,13 +79,13 @@ class: center, middle
 ---
 class: center, middle
 
-## Environment Setup on Mac
+# Environment Setup in Anaconda Navigator
+
+*These steps may not work exactly as-is on your setup, depending on your operating system, version of Anaconda, and some other factors. If you run into trouble, consult the Anaconda Navigator [Getting Started guide](https://docs.anaconda.com/anaconda/navigator/getting-started/) and [full documentation](https://docs.anaconda.com/anaconda/navigator/).*
 
 ---
 
-# Environment Setup on Mac
-
-*These steps may not work exactly as-is on your setup, depending on your operating system, version of Anaconda, and some other factors. If you run into trouble, consult the Anaconda Navigator [Getting Started guide](https://docs.anaconda.com/anaconda/navigator/getting-started/) and [full documentation](https://docs.anaconda.com/anaconda/navigator/).*
+# Environment Setup in Anaconda Navigator
 
 1. Download our course materials to your computer, in a location of your choice. Just remember where!
 
@@ -112,25 +112,9 @@ class: center, middle
 ---
 class: center, middle
 
-## Environment Setup on Mac
-# Demo
+## Mac & Windows Demo Videos
 
----
-class: center, middle
-
-## Environment Setup on Windows
-
----
-# Environment Setup on Windows
-
-
-*These steps may not work exactly as-is on your setup, depending on your operating system, version of Anaconda, and some other factors. If you run into trouble, consult the Anaconda Navigator [Getting Started guide](https://docs.anaconda.com/anaconda/navigator/getting-started/) and [full documentation](https://docs.anaconda.com/anaconda/navigator/).*
-
----
-class: center, middle
-
-## Environment Setup on Windows
-# Demo
+*At this point I recommend pausing this video and watching the demo video for your platform, which will be available in Teams alongside this one.*
 
 ---
 class: center, middle

@@ -3,6 +3,11 @@ class: center, middle
 # A Very Simple Scraper
 
 ---
+class: center, middle
+
+In this section, we're going to write Python code that pulls the list of US presidents from Wikipedia and captures it in a Pandas DataFrame, so we can do our own analysis on it.
+
+---
 
 # Agenda
 
@@ -10,13 +15,11 @@ class: center, middle
 
 2. Example: Pulling a Wikipedia Table
 
-3. Basics of Web Requests
+3. Conceptual Overview of Web Requests
 
-4. Basics of HTML
+4. Reviewing the Example with Our New Knowledge
 
-5. Reviewing the Example with Our New Knowledge
-
-6. Exercises
+5. Exercises
 
 ---
 
@@ -24,7 +27,7 @@ class: center, middle
 
 1. Students will successfully pull a table from Wikipedia into a Pandas DataFrame.
 
-2. Students will be able to explain, at a high level, the way in which that data was extracted and loaded into Python.
+2. Students will be able to explain the path by which the data was extracted and loaded into Python.
 
 ---
 
