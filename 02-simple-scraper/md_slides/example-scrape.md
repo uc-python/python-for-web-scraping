@@ -287,6 +287,49 @@ extracted.to_csv(path_to_my_saved_data)
 ```
 
 ---
+# Wrap-up
+
+This pattern is something we're going to see again...
+
+**0. Question** -- Start with a question you want to answer (e.g. *What was the value of Kroger's assets in 2020?*)
+
+---
+# Wrap-up
+
+This pattern is something we're going to see again...
+
+**1. Preparation** -- Find the page we want; inspect the page carefully, sometimes examining the underlying HTML.
+
+<center><img src="assets/scraping_diagram/preparation.png" width="70%"/></center>
+
+---
+# Wrap-up
+
+This pattern is something we're going to see again...
+
+**2. Data Pulling** -- Use the requests library (maybe alongside `pd.read_html`) to fetch the data in its raw form.
+
+<center><img src="assets/scraping_diagram/data_pulling.png" width="70%"/></center>
+
+---
+# Wrap-up
+
+This pattern is something we're going to see again...
+
+**3. Post-processing** -- Use Beautifulsoup or Pandas to transform our data into a shape we can use it, perhaps a DataFrame or something else.
+
+<center><img src="assets/scraping_diagram/postprocessing.png" width="70%"/></center>
+
+---
+# Wrap-up
+
+This pattern is something we're going to see again...
+
+**4. Extraction** -- With the data in a structured form, extract the information that answers the question you started with.
+
+<center><img src="assets/scraping_diagram/extraction.png" width="50%"/></center>
+
+---
 class: center, middle
 
 ## Questions
