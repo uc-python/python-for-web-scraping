@@ -5,7 +5,7 @@ class: center, middle
 ---
 class: center, middle
 
-In this section, we're going to write Python code that pulls the balance sheet of Kroger and captures it in a Pandas DataFrame, so we can do our own analysis on it.
+*In this section, our end goal is to pull the balance sheet of Kroger and extract some basic information from it.*
 
 ---
 
@@ -15,19 +15,21 @@ In this section, we're going to write Python code that pulls the balance sheet o
 
 2. Example: Pulling Balance Sheet Data
 
-3. Conceptual Overview of Web Requests
+  a. Preparation
 
-4. Reviewing the Example with Our New Knowledge
+  b. Pulling Data
 
-5. Exercises
+  c. Post-processing
+
+  d. Extraction
 
 ---
 
 # Goals
 
-1. Students will successfully pull a balance sheet from the Kroger 10k into a Pandas DataFrame.
+1. Students will successfully pull a balance sheet from the Kroger 10k and extract metrics such as total assets, liabilities, and equity.
 
-2. Students will be able to explain the path by which the data was extracted and loaded into Python.
+2. Students will be able to replicate the process on other very similar documents, such as other 10ks from Edgar.
 
 ---
 

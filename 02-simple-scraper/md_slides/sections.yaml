@@ -3,4 +3,3 @@ sections:
   - file: intro.md
   - file: env-setup.md
   - file: example-scrape.md
-  - file: exercises.md
