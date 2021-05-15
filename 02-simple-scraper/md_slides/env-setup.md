@@ -27,7 +27,7 @@ class: center, middle
 
   - This isolation makes it less likely that upgrades or new installations for one project cause the code of another project to stop working
 
-- We need to create an environment with *pandas*, *requests*, *beutifulsoup*, *scrapy*, etc.
+- We need to create an environment with *pandas*, *requests*, *beautifulsoup*, *scrapy*, etc.
   
   - When it comes time to run code, we'll use the Python and packages from this environment.
 
@@ -72,7 +72,7 @@ class: center, middle
   
   - This is what we'll use in our walkthrough.
 
-- Environments can be specified in files called **environmnent.yaml**.
+- Environments can be specified in files called **environment.yaml**.
 
   - You can find [our environment.yaml](https://github.com/uc-python/python-for-web-scraping/blob/master/environment.yaml) in the course GitHub repository.
 
