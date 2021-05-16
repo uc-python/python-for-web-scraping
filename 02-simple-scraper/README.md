@@ -27,7 +27,7 @@ Open the slides in your browser, however you usually do that (probably just open
 Then run the following line, but replacing `<url>` with the URL you copied.
 
 ```bash
-decktape remark "<url>" slides.pdf --chrome-arg=--disable-web-security --size=320x240
+decktape remark "<url>" slides.pdf --chrome-arg=--disable-web-security --size=320x180
 ```
 
 The `slides.pdf` file will contain your slides.
