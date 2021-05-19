@@ -42,6 +42,7 @@ class: center, middle
 
 ```html
 <h1>My Heading</h1>
+<p>And some more text I wrote</p>
 ```
 
 - Note that the closing tag has a forward slash (`/`) before the tag name to distinguish it from an opening tag.
@@ -66,3 +67,56 @@ Some text before a line break...
 ```
 
 - You will sometimes see empty tags represented with a foward slash before the second chevron (`<br/>`) but generally this isn't necessary.
+
+---
+# HTML Examples
+
+```html
+<h1>Welcome</h1>
+
+<p>This is some really interesting paragraph text. <br> So interesting that you should keep reading.</p>
+```
+
+--
+<h1>Welcome</h1>
+
+<p>This is some really interesting paragraph text. <br> So interesting that you should keep reading.</p>
+
+---
+# HTML Examples
+
+```
+<h1>My Blog Post</h1>
+<h2>The First Thing I Want to Say</h2>
+<p>The hottest take you've ever heard</p>
+<h2>The Other Thing I've Been Thinking</h2>
+<p>It's less bombastic but still entertaining.</p>
+```
+--
+<h1>My Blog Post</h1>
+
+<h2>The First Thing I Want to Say</h2>
+<p>The hottest take you've ever heard</p>
+
+<h2>The Other Thing I've Been Thinking</h2>
+<p>It's less bombastic but still entertaining.</p>
+
+---
+# HTML Examples
+
+```html
+<p>Click <a href="https://google.com">here</a> to go to google.com</p>
+```
+--
+<p>Click <a href="https://google.com">here</a> to go to google.com</p>
+
+---
+# HTML Examples
+
+```
+<h3>The UC Website Background</h3>
+<img src="https://www.uc.edu/about/jcr:content/image.img.cq5dam.thumbnail.500.500.jpg/1610547137667" width="500px;">
+```
+--
+<h3>The UC Website Background</h3>
+<img src="https://www.uc.edu/about/jcr:content/image.img.cq5dam.thumbnail.500.500.jpg/1610547137667" width="500px;">
