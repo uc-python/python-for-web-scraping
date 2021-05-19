@@ -33,5 +33,3 @@ class: center, middle
 1. Students should have Python, an IDE, and the relevant packages (requests, pandas, beautifulsoup) installed.
 
 2. Students should have used `pd.read_html` before.
-
----
