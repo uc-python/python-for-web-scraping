@@ -17,6 +17,17 @@ class: center, middle
 ---
 # HyperText Markup Language
 
+- Why do we need to know it?
+
+  - Scraping sites really boils down to fetching the right HTML and extracting information from it
+
+  - To do that, you need to be able to understand HTML at a basic level
+
+  - A good web scraper should be able to *read* HTML, but not necessarily *write* it
+
+---
+# HyperText Markup Language
+
 - HTML uses **text-based "tags"** to denote elements in a page
 
   - e.g. The `<p>` tag represents a paragraph of text, the `<img>` tag represents an embedded image

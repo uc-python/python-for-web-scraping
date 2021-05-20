@@ -61,3 +61,8 @@ div.slide-footer img {
     border-spacing: 3em 0.5em;
     border-collapse: separate;
 }
+
+span.big-red {
+    color: red;
+    font-size: 3em;
+}

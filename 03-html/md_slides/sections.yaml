@@ -2,3 +2,4 @@ sections:
   - file: template.md
   - file: intro.md
   - file: html-overview.md
+  - file: core-elements.md
