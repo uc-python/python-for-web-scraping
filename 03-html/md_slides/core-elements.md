@@ -1,6 +1,6 @@
 class: center, middle
 
-## 2
+## #2
 # Core HTML Elements to Know
 
 ---

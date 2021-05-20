@@ -3,3 +3,6 @@ sections:
   - file: intro.md
   - file: html-overview.md
   - file: core-elements.md
+  - file: html-in-browser.md
+  - file: tag-attributes.md
+  - file: pd-read-html.md

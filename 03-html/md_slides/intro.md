@@ -12,7 +12,7 @@ class: center, middle
 
 3. Looking at HTML in the Browser
 
-4. Tag Classes and IDs
+4. Tag Attributes; Classes and IDs
 
 5. A Second Look at `pd.read_html`
 
