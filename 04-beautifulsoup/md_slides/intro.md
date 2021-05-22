@@ -13,19 +13,17 @@ class: center, middle
 
 1. What's BeautifulSoup?
 
-2. BeautifulSoup Classes
+2. Getting Elements by Hierarchy
 
-3. Getting Elements by Hierarchy
+3. Getting Elements by Search
 
-4. Getting Elements by Search
-
-5. Demo: Scraping Facts about Sherlock Holmes
+4. Demo: Scraping Facts about Sherlock Holmes
 
 ---
 
 # Goals
 
-1. Students will be able to use Python to programmatically fetch any piece of data on a static page via BeautifulSoup.
+1. Students will be able to use Python to programmatically fetch an arbitrary bit of data on a static page via BeautifulSoup.
 
 ---
 
