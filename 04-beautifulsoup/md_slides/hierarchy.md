@@ -75,9 +75,7 @@ template: tree-diagram
 ---
 name: bs-html
 
-# Navigating the Tree 
-
-- This is where BeautifulSoup can really help us.
+# BS Dot Syntax
 
 ```python
 html = '''
@@ -249,10 +247,82 @@ bs.h1.next_sibling.next_sibling
 
 - Also `.parent` gets you the direct parent of the current element
 
+---
+
+# BS Dot Syntax
+
+- Last, and maybe most importantly, you can get the text inside elements using `.string`
+
+    - **But** this only works on elements that don't contain other things. They need to have only text, or be the parent of an element that contains only text.
+
+---
+template: bs-html
+
+<br>
+
+```python
+bs.h1.string
+```
+```
+My Blog
+```
+
+---
+template: bs-html
+
+<br>
+
+```python
+bs.div.next_sibling.next_sibling.a.string
+```
+```
+My Twitter
+```
+
+---
+template: bs-html
+
+<br>
+
+```python
+bs.div.p.string
+```
+
+(yields `None`)
+
+---
+
+# BS Dot Syntax
+
+- Sometimes you want *all* the text within an element and its children
+
+- You can use `.strings` (note the final `s`) to get a list of all of them.
+
+---
+template: bs-html
+
+<br>
+
+```python
+list(bs.div.p.strings)
+```
+```
+['The other day I was eating lunch, which I made from ', 'this recipe']
+```
+---
+template: bs-html
+
+<br>
+
+```python
+list(bs.div.next_sibling.next_sibling.strings)
+```
+```
+['\n', 'My Twitter', '\n', 'My Facebook', '\n']
+```
 
 ---
 class: center, middle
 
 ## Dot Syntax Demo
-
 

@@ -15,7 +15,15 @@ class: center, middle
 
 2. Getting Elements by Hierarchy
 
+    - Lecture
+    
+    - Demo
+
 3. Getting Elements by Search
+
+    - Lecture
+    
+    - Demo
 
 4. Demo: Scraping Facts about Sherlock Holmes
 
