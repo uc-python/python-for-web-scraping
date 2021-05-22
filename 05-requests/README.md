@@ -1,4 +1,4 @@
-# Module 4: Requests and HTTP
+# Module 5: Requests and HTTP
 
 After installing [remarker2](https://github.com/eswan18/remarker2/tree/develop), on a Unix-y system, you can build the presentation with:
 ```bash
