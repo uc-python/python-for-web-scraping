@@ -1,6 +1,6 @@
 class: center, middle
 
-## #3
+## #2
 # Getting Elements by Hierarchy
 
 ---

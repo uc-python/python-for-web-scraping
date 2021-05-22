@@ -3,3 +3,5 @@ sections:
   - file: intro.md
   - file: bs_overview.md
   - file: hierarchy.md
+  - file: searching.md
+  - file: demo.md
