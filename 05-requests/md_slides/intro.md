@@ -15,7 +15,7 @@ class: center, middle
 
 2. HTTP Status Codes
 
-3. Other HTTP Methods
+3. HTTP Methods
 
 ---
 

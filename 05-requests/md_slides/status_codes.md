@@ -65,6 +65,8 @@ response
 
 - Or you may also have had your "Access Denied" somewhere by way of a 403.
 
+- You can always check the code of a response in Python using its `status_code` attribute.
+
 --
 
 <br>

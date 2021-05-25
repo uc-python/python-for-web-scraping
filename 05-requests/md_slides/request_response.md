@@ -4,6 +4,25 @@ class: center, middle
 # The Request-response Cycle
 
 ---
+# HTTP
+
+- HTTP stands for HyperText Transfer Protocol
+
+- Because it's a **protocol**, it defines a certain way to exchange information
+
+  - How a "client" can request something, and how a "server" can respond
+
+  - The different types of requests that are allowed
+
+  - The information that needs to be included in those requests and responses
+
+  - A set of "status codes" that come back with a response
+
+--
+
+- Ever wonder what HTTPS is? The *S* is for **secure**, and it's a layer on top of HTTP that adds encryption to protect your web traffic from being read or modified by others who should see it.
+
+---
 # The Request-response Cycle
 
 - Whenever we've needed to pull HTML code from the internet, we've used `requests.get`
