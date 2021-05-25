@@ -1,4 +1,4 @@
 sections:
   - file: template.md
   - file: intro.md
-  - file: requests_get.md
+  - file: request_response.md

@@ -1,10 +1,10 @@
 class: center, middle
 
 ## #1
-# `requests.get`
+# The Request-response Cycle
 
 ---
-# `requests.get`
+# The Request-response Cycle
 
 - Whenever we've needed to pull HTML code from the internet, we've used `requests.get`
 

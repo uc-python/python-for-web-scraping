@@ -11,7 +11,7 @@ class: center, middle
 
 # Agenda
 
-1. `requests.get`
+1. The Request-response Cycle
 
 2. Other HTTP Methods
 
@@ -21,7 +21,7 @@ class: center, middle
 
 # Goals
 
-1. Students will be able to issue *post*, *put*, and *delete* requests from Python.
+1. Students will be able to issue *get*, *post*, *put*, and *delete* requests from Python.
 
 2. Students will know how to interpret the returned HTTP response status code from a given request.
 
