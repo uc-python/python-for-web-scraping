@@ -47,11 +47,11 @@ template: request-content
 
 <br>
 
-- Details about who we are and what data we want (they're hard to separate)
+- Details about who we are and what data we want
 
   - The address of the page *within* the website (`/wiki/Sherlock_Holmes`), sometimes called the **target**
 
-  - The **method** -- usually one of get, post, put, or delete
+  - The **method** -- usually one of GET, POST, PUT, or DELETE
 
       - Right now we've only used GET, but we'll come back to this.
 
@@ -60,3 +60,12 @@ template: request-content
       - Includes things like: what software made the request (Firefox, or Python Requests library), what type of data is expected in response (HTML, or JSON), and much more
 
   - Optionally a request **body** that can be used to send additional data
+
+---
+
+# Contents of a Response
+
+- Responses also have headers (metadata) and a body (data)
+
+- But the most interesting feature is the **status code**...
+

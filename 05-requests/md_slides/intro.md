@@ -13,9 +13,9 @@ class: center, middle
 
 1. The Request-response Cycle
 
-2. Other HTTP Methods
+2. HTTP Status Codes
 
-3. HTTP Status Codes
+3. Other HTTP Methods
 
 ---
 

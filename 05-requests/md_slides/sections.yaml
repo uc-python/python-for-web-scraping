@@ -2,3 +2,4 @@ sections:
   - file: template.md
   - file: intro.md
   - file: request_response.md
+  - file: status_codes.md
