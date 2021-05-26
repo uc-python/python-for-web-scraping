@@ -48,3 +48,11 @@ for character in characters:
 ```
 
 ## 3. A New Page Format to Scrape
+
+The Yahoo Finance page for Kroger is located at [https://finance.yahoo.com/quote/KR](https://finance.yahoo.com/quote/KR).
+Write a Python script or notebook to programmatically pull the current market cap for Kroger.
+
+*Note* -- you may want to search for attributes other than ID and class in this problem (it's not required but could make this easier). If you choose to, you can look for custom attributes using `bs.find` via the `attrs` argument...
+```python
+bs.find(name='div', attrs={'custom-attribute-name': 'attribute-value'})
+```
