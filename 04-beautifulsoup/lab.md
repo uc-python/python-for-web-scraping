@@ -101,3 +101,16 @@ Your result should again be in a DataFrame, and this time it might look like the
 | AAPL | 2.118T |  72,0009,482 |
 
 If you chose to do the bonus aspect of question 5 and convert market cap to a number, don't worry about it on this question.
+
+## 7. On Your Own Now
+
+Scrape the countries of the world and the related metrics from the following site: [https://scrapethissite.com/pages/simple/](https://scrapethissite.com/pages/simple/)
+
+Store the result in a DataFrame that looks like the following:
+
+| name | capital | population | area |
+| ---- | ------- | ---------- | ---- |
+| Andorra | Andorra la Vella | 84000 | 468.0 |
+| ....
+
+Then save your DataFrame as "countries.csv".
