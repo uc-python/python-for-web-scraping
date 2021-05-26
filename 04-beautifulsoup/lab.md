@@ -90,3 +90,14 @@ For example, the first row of the DataFrame might be
 | AAPL | 2.118T |
 
 **Bonus Challenge**: The current format of our market caps isn't ideal for numeric computation. Not only is it a string, but it's not trivially convertible to a number because it's abbreviated (e.g. 2.118T needs to become 2,118,000,000,000). Write code to update the market_cap column to be numeric, and then compute the average market cap of these companies.
+
+## 6. A DataFrame with More Columns
+
+Scrape the same four tickers (AAPL, MSFT, GOOG, AMZN) again, but this time extract *both* the "Market Cap" and the "Volume" fields.
+Your result should again be in a DataFrame, and this time it might look like the following:
+
+| ticker | market_cap | volume |
+| ----- | -----: |  ---- |
+| AAPL | 2.118T |  72,0009,482 |
+
+If you chose to do the bonus aspect of question 5 and convert market cap to a number, don't worry about it on this question.
