@@ -74,3 +74,19 @@ for ticker in tickers:
     filename = ticker + '.txt'
     ...
 ```
+
+## 5. Saving Multiple Results in a DataFrame.
+
+So far, when scraping multiple pages we've saved each page's extracted data to a separate file.
+However, to do analysis, we usually want all the data in a single file or database for easy loading and processing.
+
+Update your solution to question 4 so that each ticker is a row in a Pandas DataFrame, rather than a separate file.
+The columns should be named `"ticker"` and `"market_cap"`.
+
+For example, the first row of the DataFrame might be
+
+| ticker | market_cap |
+| ----- | ----- | 
+| AAPL | 2.118T |
+
+**Bonus Challenge**: The current format of our market caps isn't ideal for numeric computation. Not only is it a string, but it's not trivially convertible to a number because it's abbreviated (e.g. 2.118T needs to become 2,118,000,000,000). Write code to update the market_cap column to be numeric, and then compute the average market cap of these companies.
