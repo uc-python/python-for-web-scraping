@@ -5,6 +5,8 @@
 This lab is fairly long; it's okay if you don't finish the entire thing.
 Some of the later questions are meant to challenge you to solve new problems and require tools we haven't explicitly covered in lecture.
 
+<br>
+
 ## 1. Another Fictional Character Wikipedia Page
 
 The URL of the Wikipedia page for Harry Potter is `https://en.wikipedia.org/wiki/Harry_Potter_(character)`.
@@ -14,6 +16,8 @@ Scrape this page for the same details we looked at for Sherlock Holmes, Elizabet
 - Full text of the page.
 
 Save that result in a file called `harry.txt`. Look over its contents to confirm you fetched the information you expected, and follow the image URL (remember that you may need to add `https` at the beginning).
+
+<br>
 
 ## 2. Looping Over Multiple Characters
 
@@ -47,6 +51,8 @@ for character in characters:
     scrape_to_file(character['url'], character['filename'])
 ```
 
+<br>
+
 ## 3. A New Page Format to Scrape: Yahoo Finance
 
 The Yahoo Finance page for Kroger is located at [https://finance.yahoo.com/quote/KR](https://finance.yahoo.com/quote/KR).
@@ -56,6 +62,8 @@ Write a Python script or notebook to programmatically pull the current market ca
 ```python
 bs.find(name='div', attrs={'custom-attribute-name': 'attribute-value'})
 ```
+
+<br>
 
 ## 4. Multiple Yahoo Finance Pages
 
@@ -75,6 +83,8 @@ for ticker in tickers:
     ...
 ```
 
+<br>
+
 ## 5. Saving Multiple Results in a DataFrame.
 
 So far, when scraping multiple pages we've saved each page's extracted data to a separate file.
@@ -91,6 +101,8 @@ For example, the first row of the DataFrame might be
 
 **Bonus Challenge**: The current format of our market caps isn't ideal for numeric computation. Not only is it a string, but it's not trivially convertible to a number because it's abbreviated (e.g. 2.118T needs to become 2,118,000,000,000). Write code to update the market_cap column to be numeric, and then compute the average market cap of these companies.
 
+<br>
+
 ## 6. A DataFrame with More Columns
 
 Scrape the same four tickers (AAPL, MSFT, GOOG, AMZN) again, but this time extract *both* the "Market Cap" and the "Volume" fields.
@@ -101,6 +113,8 @@ Your result should again be in a DataFrame, and this time it might look like the
 | AAPL | 2.118T |  72,0009,482 |
 
 If you chose to do the bonus aspect of question 5 and convert market cap to a number, don't worry about it on this question.
+
+<br>
 
 ## 7. On Your Own Now
 
