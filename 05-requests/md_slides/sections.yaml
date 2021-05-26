@@ -3,3 +3,4 @@ sections:
   - file: intro.md
   - file: request_response.md
   - file: status_codes.md
+  - file: methods.md
