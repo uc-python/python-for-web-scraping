@@ -17,6 +17,8 @@ class: center, middle
 
 3. HTTP Methods
 
+4. HTTP Headers
+
 ---
 
 # Goals

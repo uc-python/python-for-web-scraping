@@ -4,3 +4,4 @@ sections:
   - file: request_response.md
   - file: status_codes.md
   - file: methods.md
+  - file: headers.md
