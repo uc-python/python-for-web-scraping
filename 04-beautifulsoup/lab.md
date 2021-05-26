@@ -47,12 +47,30 @@ for character in characters:
     scrape_to_file(character['url'], character['filename'])
 ```
 
-## 3. A New Page Format to Scrape
+## 3. A New Page Format to Scrape: Yahoo Finance
 
 The Yahoo Finance page for Kroger is located at [https://finance.yahoo.com/quote/KR](https://finance.yahoo.com/quote/KR).
-Write a Python script or notebook to programmatically pull the current market cap for Kroger.
+Write a Python script or notebook to programmatically pull the current market cap for Kroger and save it to a file called `KR.txt`.
 
 *Note* -- you may want to search for attributes other than ID and class in this problem (it's not required but could make this easier). If you choose to, you can look for custom attributes using `bs.find` via the `attrs` argument...
 ```python
 bs.find(name='div', attrs={'custom-attribute-name': 'attribute-value'})
+```
+
+## 4. Multiple Yahoo Finance Pages
+
+In general, a company's Yahoo Finance overview can be found by appending its ticker (e.g. KR) to the URL 'https://finance.yahoo.com/quote/'.
+Write a loop to extract the market cap for each of the following tickers and save them in files named based on the company's ticker (e.g. Apple's market cap should be stored in `AAPL.txt`).
+
+Tickers: AAPL, MSFT, GOOG, AMZN
+
+
+Here is some code to get you started writing your loop:
+```python
+tickers = ['AAPL', 'MSFT', 'GOOG', 'AMZN']
+
+for ticker in tickers:
+    url = 'https://finance.yahoo.com/quote/' + ticker
+    filename = ticker + '.txt'
+    ...
 ```
