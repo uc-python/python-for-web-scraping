@@ -33,6 +33,11 @@ class: center, middle
 
   - JSON, CSV data, regular text...
 
+--
+
+<br>
+- **Most importantly:** Many sites that want to make it easy to get their data will offer an API.
+
 ---
 
 # Aside: Other uses of "API"
@@ -41,7 +46,7 @@ class: center, middle
 
   - The collection of functions and attributes we used with BeautifulSoup could be considered its API, since they are the *interface* of the package and we use them from Python
 
-- *Sometimes* when people talk about APIs, they are talking in this sense: any programming interface
+- *Sometimes* when people talk about APIs, they are using the word in this sense: any programming interface
 
 ---
 
@@ -61,3 +66,15 @@ class: center, middle
   - **POST** -- Create some new data
   - **PUT** -- Update some existing data
   - **DELETE** -- Delete some existing data
+
+- However, we're only going to use them for pulling data, and that means mostly GET requests.
+
+---
+
+# API Endpoints
+
+- Rest APIs are usually associated with a partiular URL or collection of URLs, which are called *endpoints* in the context of an APIs.
+
+- In today's lecture, we're going to use a very simple API: The *REST Countries* API: [https://restcountries.eu](https://restcountries.eu)
+
+  - Allows us to fetch information about a country
