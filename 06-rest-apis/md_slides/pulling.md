@@ -24,6 +24,7 @@ class: center, middle
 - Let's look at the *Name* endpoint.
 
 ---
+name: name-endpoint-doc
 
 # REST Countries API
 
@@ -31,7 +32,8 @@ class: center, middle
 
 <img src="assets/name_endpoint_doc.png" width="100%"/>
 
---
+---
+template: name-endpoint-doc
 
 - On the right, you see the general syntax: `https://restcountries.eu/rest/v2/name/{name}`
 
@@ -40,6 +42,13 @@ class: center, middle
 - The following two URLs are examples of how you might call this endpoint
 
 ---
+template: name-endpoint-doc
+
+<br>
+- We can think of this endpoint as a function that takes one argument (`name`) and returns information about a country
+
+---
+name: italy-request
 
 # REST Countries API
 
@@ -55,8 +64,60 @@ country = 'italy'
 full_url = endpoint_url + country
 
 response = requests.get(full_url)
+```
+
+---
+template: italy-request
+
+<br>
+```python
 response
 ```
 ```
 <Response [200]>
 ```
+- A 200 means success, so that's good!
+
+---
+template: italy-request
+
+```python
+response.content
+```
+```
+b'[{"name":"Italy","topLevelDomain":[".it"],"alpha2Code":"IT","alpha3Code":"ITA","callingCodes":["39"],"capital":"Rome",
+"altSpellings":["IT","Italian Republic","Repubblica italiana"],"region":"Europe","subregion":"Southern Europe",
+"population":60665551,"latlng":[42.83333333,12.83333333],"demonym":"Italian","area":301336.0,...'
+```
+```python
+type(response.content)
+```
+```
+bytes
+```
+---
+name: json-intro
+
+# REST Countries API
+
+```python
+response.content
+```
+```
+b'[{"name":"Italy","topLevelDomain":[".it"],"alpha2Code":"IT","alpha3Code":"ITA","callingCodes":["39"],"capital":"Rome",
+"altSpellings":["IT","Italian Republic","Repubblica italiana"],"region":"Europe","subregion":"Southern Europe",
+"population":60665551,"latlng":[42.83333333,12.83333333],"demonym":"Italian","area":301336.0,...'
+```
+```python
+type(response.content)
+```
+```
+bytes
+```
+
+- There's clearly information in the response's content, but it's a "bytes" object, which we haven't seen before
+
+- It kind of looks like Python lists and dictionaries
+
+- Is there a way we can translate it into a Python object?
+
