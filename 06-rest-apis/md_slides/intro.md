@@ -17,6 +17,8 @@ class: center, middle
 
 3. JSON
 
+4. Demo with an Example API
+
 ---
 
 # Goals

@@ -4,3 +4,4 @@ sections:
   - file: api_basics.md
   - file: pulling.md
   - file: json.md
+  - file: demo.md
