@@ -394,3 +394,142 @@ switzerland_info[0]['currencies'][0]['name']
 ```
 Swiss franc
 ```
+
+---
+
+# Dealing with JSON
+
+- We've been using the search-by-name endpoint of the REST Countries API so far, but there is also an endpoint to get *all* countries
+
+    - `''https://restcountries.eu/rest/v2/all'`
+
+    - Takes no additional arguments
+
+- Let's see what it would look like to get the currency of *every* country
+
+---
+
+# Dealing with JSON
+
+```python
+endpoint_url = 'https://restcountries.eu/rest/v2/all'
+response = requests.get(endpoint_url)
+response
+```
+```python
+<Response [200]>
+```
+
+--
+
+```python
+country_info = response.json()
+len(country_info)
+```
+```
+250
+```
+
+- So we have 250 countries!
+
+---
+
+# Dealing with JSON
+
+- We can iterate through these countries with a `for` loop
+
+```python
+for country in country_info:
+    print(country['name'])
+```
+```
+Afghanistan
+Åland Islands
+Albania
+Algeria
+American Samoa
+Andorra
+Angola
+Anguilla
+Antarctica
+Antigua and Barbuda
+Argentina
+Armenia
+Aruba
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+...
+```
+
+---
+
+# Dealing with JSON
+
+- And extract certain fields...
+
+```python
+for country in country_info:
+    print(country['name'], ':', country['currencies'][0]['name'])
+```
+```
+Afghanistan : Afghan afghani
+Åland Islands : Euro
+Albania : Albanian lek
+Algeria : Algerian dinar
+American Samoa : United State Dollar
+Andorra : Euro
+Angola : Angolan kwanza
+Anguilla : East Caribbean dollar
+Antarctica : Australian dollar
+Antigua and Barbuda : East Caribbean dollar
+Argentina : Argentine peso
+Armenia : Armenian dram
+Aruba : Aruban florin
+Australia : Australian dollar
+Austria : Euro
+Azerbaijan : Azerbaijani manat
+Bahamas : Bahamian dollar
+Bahrain : Bahraini dinar
+Bangladesh : Bangladeshi taka
+...
+```
+
+---
+
+# Dealing with JSON
+
+- We could even build a list of rows to transform into a DataFrame
+
+```python
+rows = []
+for country in country_info:
+    name = country['name']
+    currency = country['currencies'][0]['name']
+    area = country['area']
+    # Build a dictionary to represent a row
+    row = {'name': name, 'currency': currency, 'area': area}
+    rows.append(row)
+```
+
+--
+
+```python
+import pandas as pd
+country_df = pd.DataFrame(rows)
+country_df
+```
+```
+                  name             currency       area
+0          Afghanistan       Afghan afghani   652230.0
+1        Åland Islands                 Euro     1580.0
+2              Albania         Albanian lek    28748.0
+3              Algeria       Algerian dinar  2381741.0
+4       American Samoa  United State Dollar      199.0
+..                 ...                  ...        ...
+
+[250 rows x 3 columns]
+```
