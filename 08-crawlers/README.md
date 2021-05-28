@@ -1,4 +1,4 @@
-# Module 7: JavaScript and Selenium
+# Module 8: Web Crawlers and Scrapy
 
 After installing [remarker2](https://github.com/eswan18/remarker2/tree/develop), on a Unix-y system, you can build the presentation with:
 ```bash
