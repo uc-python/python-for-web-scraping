@@ -5,13 +5,13 @@ class: center, middle
 ---
 class: center, middle
 
-*Web pages that aren't "static".*
+*Scraping page after page.*
 
 ---
 
 # Agenda
 
-1. ?
+1. Scrapy
 
 ---
 
