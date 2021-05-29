@@ -1,7 +1,7 @@
 class: center, middle
 
 ## #1
-# How JavaScript is Used
+# JavaScript and Dynamic Pages
 
 ---
 
@@ -13,7 +13,7 @@ class: center, middle
 
   - Styling to change the shape and appearance of those items
 
-- But we haven't seen any *dynamic* elements. How would you build an interactive web page that changes based on how a user.
+- But we haven't seen any *dynamic* elements. How would you build an interactive web page that changes based on a user's actions?
 
 ---
 
@@ -138,8 +138,40 @@ list(bs.html.body.children)
 
 - Just like Python, JavaScript describes *actions*
 
-  - In contrast with HTML, which just describes objects and layout
+  - In contrast to HTML, which just describes objects and layout
 
-- JavaScript is often used to update the HTML of the page dynamically, based on some user action
+- JavaScript is often used to update the HTML of a page dynamically, based on some user action
 
 - Sometimes it's also responsible for creating the HTML in the first place, as in Google Maps (there's no HTML at all until the JavaScript executes)
+
+---
+
+# JavaScript
+
+- JavaScript is sent back within the HTML of a page, in `<script>` tags
+
+- Here's one of the scripts from our Google Maps page:
+
+```html
+<script nonce="J6BZe3qWhSTef2/hnZ2uVg==">
+  if (window.devicePixelRatio > 1){
+    document.body.className += ' highres';
+  }
+</script>
+```
+
+- `document.body.className += ' highres';` changes the class of the `<body>` tag in the HTML code of the page -- conditionally! Pretty amazing.
+
+---
+
+# JavaScript
+
+- Pretty much every site has at least *some* JavaScript in it -- even our Wikipedia page did
+
+- But for many -- perhaps most --  sites, the important content is still defined in HTML that's sent back in the response
+
+- For others though, there's no useful HTML to be pulled back for scraping until the JavaScript runs
+
+  - Almost any site that completely changes its interface over time and as you interact with it is likely to be very JavaScript-driven
+
+  - These sites are **bad news for scraping**
