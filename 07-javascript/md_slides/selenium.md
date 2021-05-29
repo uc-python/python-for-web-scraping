@@ -96,7 +96,7 @@ It goes on and on and on.
 
 - If the HTML you get back in `response.content` doesn't include things you'd expect, or seems must smaller than it should be, you might be looking at a dynamic page
 
-- A good test -- find a short phrase on the page (in your browser) and search for it in `response.content`. If it's not there, it's probably being loaded dynaically via JavaScript
+- A good test -- find a short phrase on the page (in your browser) and search for it in `response.content`. If it's not there, it's probably being loaded dynamically via JavaScript
 
 - Once you're *very sure* you need to execute JavaScript, turn to Selenium
 
