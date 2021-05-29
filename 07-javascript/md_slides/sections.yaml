@@ -1,7 +1,5 @@
 sections:
   - file: template.md
   - file: intro.md
-  - file: api_basics.md
-  - file: pulling.md
-  - file: json.md
-  - file: demo.md
+  - file: js.md
+# - file: selenium.md

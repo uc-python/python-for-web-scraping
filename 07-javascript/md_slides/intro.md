@@ -11,7 +11,9 @@ class: center, middle
 
 # Agenda
 
-1. ?
+1. JavaScript and Dynamic Sites
+
+2. Selenium
 
 ---
 
