@@ -2,4 +2,4 @@ sections:
   - file: template.md
   - file: intro.md
   - file: js.md
-# - file: selenium.md
+  - file: selenium.md
