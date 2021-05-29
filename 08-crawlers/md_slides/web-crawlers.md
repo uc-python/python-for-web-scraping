@@ -43,8 +43,10 @@ bs = BeautifulSoup(response.content, 'html.parser')
 next_links = []
 for a_tag in bs.find_all('a'):
     # Make sure this <a> has an href attribute
-    if 'href' in a_tag:
+    if 'href' in a_tag.attrs and not a_tag['href'].startswith('#'):
         link = a_tag['href']
+        if not link.startswith('https://'):
+            link = 'https://wikipedia.org' + link
         next_links.append(link)
 
 # Follow those links and scrape them
@@ -77,15 +79,17 @@ while True:
     # Set up an empty list to add the next group of links to
     next_links = []
 
-    for url in next_links:
+    for url in links:
         # Get the content for each link
         response = requests.get(url)
         bs = BeautifulSoup(response.content, 'html.parser')
 
         # Collect all the pages *this page links to*
         for a_tag in bs.find_all('a'):
-            if 'href' in a_tag:
+            if 'href' in a_tag.attrs and not a_tag['href'].startswith('#'):
                 link = a_tag['href']
+                if not link.startswith('https://'):
+                    link = 'https://wikipedia.org' + link
                 next_links.append(link)
 
         # Also do some scraping for the current page
