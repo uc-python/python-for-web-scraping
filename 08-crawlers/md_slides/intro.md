@@ -1,6 +1,6 @@
 class: center, middle
 
-# Web Crawlers and Scrapy
+# Web Crawlers
 
 ---
 class: center, middle
@@ -11,7 +11,9 @@ class: center, middle
 
 # Agenda
 
-1. Scrapy
+1. Web Crawlers
+
+2. Scrapy
 
 ---
 
