@@ -1,5 +1,10 @@
 # Rest APIs Lab
 
+<br>
+
+The last question requires an account on [TwelveData](https://twelvedata.com) in order to get an API key.
+If you're not comfortable making an account for some reason, that's totally fine -- you can just review the solution notebook.
+
 <br><br>
 
 ## 1. A Basic API Query
@@ -54,3 +59,19 @@ Answer the following questions:
 - What is the greatest number of web pages that any university has? Note that the web_pages field contains lists, so you will need to find a way to convert these to counts.
 
 Then, drop the `country` column, set the row labels to be the `name` column, and save the data to a file called `universities.csv`.
+
+## 6. Back to TwelveData
+
+Use the TwelveData API to get values of Bitcoin (BTC) and Ethereum (ETH) relative to the US Dollar.
+Use closing prices from the last 14 days.
+
+Create a single DataFrame from the results, where each row represents a day, and there are columns for each of Bitcoin and Etherium.
+It should look like so:
+
+| date | btc | eth |
+| ---- | --- | --- |
+
+<br>
+Then create a new column, btc_premium, which is the ratio of the Bitcoin price to the Ethereum price (`btc/eth`).
+On which day was the Bitcoin premium highest?
+On which day the lowest?
