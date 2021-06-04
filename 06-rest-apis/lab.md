@@ -43,4 +43,14 @@ How many are there?
 
 <br>
 
-## 5. 
+## 5. Wrangling University Data
+
+Use the Hipo Labs API to get all univerities in the USA (search with parameter "United States").
+
+Answer the following questions:
+
+- Of the universities with a state/provice labeled (which is actually not many), which state has the most? Which the fewest?
+
+- What is the greatest number of web pages that any university has? Note that the web_pages field contains lists, so you will need to find a way to convert these to counts.
+
+Then, drop the `country` column, set the row labels to be the `name` column, and save the data to a file called `universities.csv`.
